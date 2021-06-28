@@ -43,6 +43,10 @@ android {
     }
 }
 
+kapt {
+    correctErrorTypes = true
+}
+
 dependencies {
     implementation(Deps.Kotlin.stdlib)
     implementation(Deps.AndroidX.appcompat)
@@ -58,6 +62,7 @@ dependencies {
     // lifecycle
     implementation(Deps.Lifecycle.runtimeKtx)
     implementation(Deps.Lifecycle.viewmodelKtx)
+    implementation(Deps.Lifecycle.livedataKtx)
     implementation(Deps.Lifecycle.commonJava8)
 
     // fragment-ktx
@@ -78,7 +83,7 @@ dependencies {
     implementation(Deps.Square.convertMoshi)
     // moshi
     implementation(Deps.Square.moshi)
-    implementation(Deps.Square.moshiCodegen)
+    kapt(Deps.Square.moshiCodegen)
     // logging
     implementation(Deps.Square.logging)
 

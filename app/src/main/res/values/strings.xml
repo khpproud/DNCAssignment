@@ -4,4 +4,7 @@
     <string name="content_description_search_icon">Search Github User by names</string>
     <string name="retry">Retry</string>
     <string name="empty_results">검색 결과가 없습니다</string>
+    <string name="error_results">검색 중 에러가 발생했습니다</string>
+    <string name="api">API</string>
+    <string name="local">Local</string>
 </resources>

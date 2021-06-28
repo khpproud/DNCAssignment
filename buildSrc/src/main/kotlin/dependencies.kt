@@ -15,7 +15,7 @@ object AppConfig {
 
 object Versions {
     const val gradle = "4.2.1"
-    const val kotlin = "1.5.20"
+    const val kotlin = "1.5.10"
     const val appcompat = "1.3.0"
     const val coreKtx = "1.5.0"
     const val constraintlayout = "2.0.4"
@@ -67,6 +67,7 @@ object Deps {
     object Lifecycle {
         const val runtimeKtx = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycle}"
         const val viewmodelKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
+        const val livedataKtx = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
         const val commonJava8 = "androidx.lifecycle:lifecycle-common-java8:${Versions.lifecycle}"
     }
 

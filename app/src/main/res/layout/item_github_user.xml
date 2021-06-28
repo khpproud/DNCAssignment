@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/iv_avatar"
@@ -25,25 +26,19 @@
         app:layout_constraintStart_toEndOf="@id/iv_avatar"
         app:layout_constraintTop_toTopOf="@id/iv_avatar"
         app:layout_constraintBottom_toBottomOf="@id/iv_avatar"
-        app:layout_constraintEnd_toStartOf="@id/ib_favorite"
+        app:layout_constraintEnd_toStartOf="@id/iv_favorite"
         tools:text="안드로이드" />
 
-    <ToggleButton
-        android:id="@+id/ib_favorite"
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_favorite"
         android:layout_width="@dimen/image_button_size"
         android:layout_height="@dimen/image_button_size"
         android:layout_marginHorizontal="@dimen/medium"
-        android:background="@drawable/button_star"
-        android:checked="false"
-        android:text=""
-        android:textOff=""
-        android:textOn=""
+        android:layout_gravity="center"
+        android:src="@drawable/button_star"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/tv_username"
         app:layout_constraintTop_toTopOf="@id/iv_avatar"
-        app:layout_constraintBottom_toBottomOf="@id/iv_avatar"
-        tools:text=""
-        tools:textOff=""
-        tools:textOn="" />
+        app:layout_constraintBottom_toBottomOf="@id/iv_avatar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

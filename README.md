@@ -1,4 +1,4 @@
-# DNC_Assignment
+# DNCAssignment
 Drama & Company Android Assignment
 
 기능 요구사항

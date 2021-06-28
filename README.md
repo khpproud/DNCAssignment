@@ -23,4 +23,4 @@ Drama & Company Android Assignment
 - Coroutines for Asynchronous 
 - Dagger Hilt for DI
 - Retrofit for Restful
-- Coli for Image Prosessing
+- Coli for Image Processing

@@ -1,6 +1,6 @@
 # GithubSearchUser
 
-기능 요구사항
+기능 명세
 - Github 사용자를 검색(https://api.github.com/search/users)
 - 즐겨찾기한 사용자를 로컬 DB에 저장
 - 즐겨찾기한 사용자를 로컬 DB에서 검색

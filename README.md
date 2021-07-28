@@ -11,4 +11,4 @@
 - Coroutines for Asynchronous 
 - Dagger Hilt for DI
 - Retrofit for Restful
-- Coli for Image Processing
+- Coil for Image Processing
